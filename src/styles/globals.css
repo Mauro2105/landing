@@ -40,3 +40,51 @@ a {
     color-scheme: dark;
   }
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0; right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #000428, #004e92);
+  z-index: 1000;
+  padding: 0 20px;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #00ff8f;
+}
+
+.footer {
+  background: linear-gradient(to right, #000428, #004e92);
+  color: #ddd;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.logo { 
+  height: 40px;
+  width: auto;
+  margin-right: 20px;
+  margin-left: 10px;
+  object-fit: contain;
+  display: block;
+}
